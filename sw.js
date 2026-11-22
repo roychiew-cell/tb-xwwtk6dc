@@ -1,5 +1,5 @@
 /* Open trip board: keeps the page on the phone so it opens without a connection. Network first (3 seconds), then the saved copy. */
-var VERSION = '435964ae8c';
+var VERSION = '7736c3e55c';
 var CACHE = 'open-board-' + VERSION;
 var FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'apple-touch-icon.png'];
 self.addEventListener('install', function (e) {
